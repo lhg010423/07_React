@@ -1,0 +1,47 @@
+React
+자바스트립트 라이브러리로, 사용자 인터페이스(UI)를 구축하기 위해 사용(페이스북 제공)
+
+특징
+1. 컴포넌트 기반 구조
+- 독립적이고 , 재사용 가능한 코드 조각으로, 여러 컴포넌트를 조합하여 크고 ,복잡한
+사용자 인터페이스를 만들 수 있다.
+
+2. 가상 DOM(Virtual DOM)
+- 상태가 변경되면 실제 DOM에 변경을 적용하기 전에 가상DOM에 먼저 변경을 적용하고,
+이를 실제 DOM과 비교하여 필요한 부분만 업데이트 하는 방식 -> 성능이 향상됨
+
+기존 html/js는 DOM 하나만 실행되는데
+React는 가상DOM이 먼저 실행됨
+
+3. JSX(JavaScript Xml)
+JSX는 자바스크립트와 HTML을 결합한 문법으로, UI를 정의할 때 직관적이고 읽기 쉽게 만들어줌
+JSX는 브라운저가 이해할 수 있는 자바스크립트 코드로 변환 
+
+<h1>Hello, world!</h1>  이모양을 만들려면?
+
+JS
+const h1 = document.createElement("h1");
+h1.innerText = "Hello, world!";
+body.append(h1);
+
+JSX
+const element = <h1>Hello, world!</h1>;
+return (
+	{element}
+)
+
+
+
+npm
+node package manager
+npm은 node설치할 때 자동으로 설치됨
+
+npm 의 성능적인 문제를 보안한게 yarn이다
+
+
+리엑트 프로젝트는 기본적으로 포트번호를 3000번을 쓴다
+
+app.js파일에 있는 return코드가 화면에 렌더링된다
+
+
+부모 state의 name값을 자식이 props로 가져올수 있지만 자식이 변경 불가능
