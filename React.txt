@@ -45,3 +45,11 @@ app.js파일에 있는 return코드가 화면에 렌더링된다
 
 
 부모 state의 name값을 자식이 props로 가져올수 있지만 자식이 변경 불가능
+
+
+
+
+
+React => node.js
+Spring => java
+서로 존나게 무겁고 환경이 달라서 보통 같이 안씀
