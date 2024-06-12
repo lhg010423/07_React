@@ -91,7 +91,7 @@ function TodoList() {
                                 {todo.title}
                             </span>
 
-                            <button onClick={() => handleToggleTodo(index)}>
+                            <button onClick={() => handleToggleTodo(index)}> 
                                 {todo.isDone ? '미완료' : '완료'}
                             </button>
 

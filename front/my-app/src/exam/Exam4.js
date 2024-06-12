@@ -19,7 +19,7 @@ function Exam4() {
 
     return (
         <>
-            <Child1 name={name}/>
+            <Child1 name={name}/>.
             <button onClick={handleClick}>이름 변경</button>
         </>
     )

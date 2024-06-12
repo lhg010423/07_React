@@ -17,7 +17,7 @@ import { useState } from "react"
 const Id = (props) => { // 부모에게서 전달받은 속성을 props 라고 부름
     // 매개변수 이름이 props, props : {onChangeId, name, age, gender}
 
-    const { onChangeId } = props; // props 안에 있는 onchangeId라는 이르므이 함수를 이용할 수 있게 됨
+    const { onChangeId } = props; // props 안에 있는 onchangeId라는 이름의 함수를 이용할 수 있게 됨
 
     // const [id, setId] = useState(""); // 상태(state) 중 'id'를 생성하고 초기값 "" 설정
 
@@ -29,7 +29,7 @@ const Id = (props) => { // 부모에게서 전달받은 속성을 props 라고 �
             <div>
                 <label>ID : </label>
                 <input onChange={onChangeId}/>
-                {/* onChange 이벤트 행들러에 onChangeId를 연결함 */}
+                {/* onChange 이벤트 핸들러에 onChangeId를 연결함 */}
             </div>
         </>
     );
@@ -95,7 +95,7 @@ const Exam3 = () => {
 
 
 
-            {/* 컴포넌트 중 Id를 불러 렌더링함 (Pw가 Exam3의 자식이 됨) */}
+            {/* 컴포넌트 중 Pw를 불러 렌더링함 (Pw가 Exam3의 자식이 됨) */}
             <Pw onChangePw={onChangePw}/>
 
             <div>

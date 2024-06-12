@@ -28,14 +28,14 @@ function App() {
       {/* <Exam3 /> */}
       {/* <Exam4 /> */}
       {/* <Exam5 /> */}
-      {/* <Exam6_1 isLogin={true}/>
+      <Exam6_1 isLogin={true}/>
       <Exam6_2 />
-      <Exam6_3 label="클릭해보세요~"/> */}
+      <Exam6_3 label="클릭해보세요~"/>
       {/* <ThemeProvider>
         <ThemeToggle />
         <ThemeComponent />
       </ThemeProvider> */}
-      <TodoList />
+      {/* <TodoList /> */}
 
 
     </div>

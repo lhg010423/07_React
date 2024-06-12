@@ -9,6 +9,7 @@ function Exam2() {
     const [name, setName] = useState("이형구");
     // Hooks : 리엑트에서 만들어 놓은 기능 모음(Hooks 중 하나인 useState()는 상태를 손쉽게 바꿀 수 있는게 useState()이다)
 
+    // 메서드(함수)
     const handleClick = () => {
         setName("홍길동");
     }
